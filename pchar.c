@@ -14,7 +14,7 @@ void f_pchar(stack_t **head, unsigned int counter)
 	if (!h)
 	{
 		fprintf(stderr, "L%d: can't pchar, stack empty\n", counter);
-		fclose(bus.file);
+		fclose(sus.file);
 		free(bus.content);
 		free_stack(*head);
 		exit(EXIT_FAILURE);
